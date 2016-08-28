@@ -6,11 +6,11 @@ public static void main(String[] args)
 		s=s.toUpperCase();
 		if(s.equals("MONDAY")||s.equals("TUESDAY")||s.equals("WEDNESDAY")||s.equals("THURSDAY")||s.equals("FRIDAY"))
 		{
-			System.out.println("WORKING DAY");
+			System.out.println("true");
 		}
 		else if(s.equals("SATURDAY")||s.equals("SUNDAY"))
 		{
-			System.out.println("HOLIDAY");
+			System.out.println("false");
 		}
 		else
 		{
